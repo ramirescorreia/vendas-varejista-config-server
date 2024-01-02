@@ -1,0 +1,1 @@
+# vendas-varejista-config-server
