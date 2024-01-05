@@ -7,7 +7,7 @@ spring:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/cadprodutos
     username: produto
-    password: 
+    password: Cx//33???!!!
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect  
     hibernate:
