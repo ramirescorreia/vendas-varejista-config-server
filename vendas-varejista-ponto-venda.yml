@@ -6,7 +6,7 @@ spring:
   datasource:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/pontovenda
-    username: produto
+    username: venda
     password: 12345678
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect  
@@ -28,9 +28,9 @@ eureka:
 springdoc:
   api-docs.enabled: true
   swagger-ui.enabled: true
-  swagger-ui.path: /produto-documentacao
-  api-docs.path: /produto-api-docs
-  packages-to-scan: br.com.fastcloudsolucoes.cadastroprodutos.presentation
+  swagger-ui.path: /ponto-venda-documentacao
+  api-docs.path: /ponto-venda-api-docs
+  packages-to-scan: br.com.fastcloudsolucoes.pontovenda
   swagger-ui.tryItOutEnabled: true
   swagger-ui.operationsSorter: method
   swagger-ui.tagsSorter: alpha
