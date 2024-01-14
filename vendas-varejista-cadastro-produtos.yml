@@ -5,6 +5,9 @@ spring:
     name: vendas-varegista-cadastro-produtos
   profiles:
     active: dev
+  jackson:
+    locale: pt-BR
+    time-zone: America/Sao_Paulo
   datasource:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/cadprodutos
